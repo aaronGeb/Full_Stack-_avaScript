@@ -89,3 +89,30 @@ for (let i = 1; i <= 100; i++) {
           : i;
   console.log(action);
 }
+
+// grading system
+// Write a program that asks the user to enter a number.
+// If the number is between 80-100, print "A+".
+// If the number is between 70-79, print "A".
+// If the number is between 60-69, print "B".
+// If the number is between 50-59, print "C".
+// If the number is between 40-49, print "D".
+// If the number is between 0-39, print "F".
+// If the number is less than 0 or greater than 100, print "Invalid number".
+let grade = 90
+if (grade >= 80 && grade <= 100) {
+  console.log("A+");
+}
+else if (grade >= 70 && grade <= 79) {
+  console.log("A");
+} else if (grade >= 60 && grade <= 69) {
+  console.log("B");
+} else if (grade >= 50 && grade <= 59) {
+  console.log("C");
+} else if (grade >= 40 && grade <= 49) {
+  console.log("D");
+} else if (grade >= 0 && grade <= 39) {
+  console.log("F");
+} else {
+  console.log("Invalid number");
+}
